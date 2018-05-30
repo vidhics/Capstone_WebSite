@@ -1,0 +1,563 @@
+﻿<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mavericks</title>
+	<meta name="description" content="Team Mavericks Spring 2018. University of Houston - Clear Lake">
+	<meta name="keywords" content="Capstone Project" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/flickity.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="header-nav-wrapper">
+				<div class="logo">
+					          <h2>Mavericks</h2>
+				</div>
+				<div class="primary-nav-wrapper">
+					<nav>
+						<ul class="primary-nav">
+							<li><a href="#">Home</a></li>
+							<li><a href="#intro">Project</a></li>
+							<li><a href="#mentor">Mentor</a></li>
+							<li><a href="#team">Team</a></li>
+              <li><a href="#meeting">Meetings</a></li>
+                            <li><a href="#Milestones">Milestones</a></li>
+                            <li><a href="#Videos">Videos</a></li>
+						</ul>
+					</nav>
+
+				</div>
+				<div class="navicon">
+					<a class="nav-toggle" href="#"><span></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header class="hero">
+		<div class="carousel js-flickity">
+			<div class="carousel-cell" style="background-image: url(img/2.jpg);">
+				<div class="hero-bg">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 text-center">
+								<h1 class="wp1" style="font-weight:500; margin:0;">Offlile Monitoring System</h1>
+                                <h1 class="wp1" style="font-weight:500">-An IoT Application</h1>
+																  <h1 class="wp1" style="font-weight:500">CSCI 6838.02</h1>
+								<a href="#intro" class="btn primary wp2">Learn more</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-7 text-center hero-intro-text wp3">
+								                <p style="font-weight:500">Sometimes it is necessary to monitor environmental conditions in closed systems, a closed system is defined as one where the system does not have a connection to an
+external environment to transmit its data in real-time. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--<div class="carousel-cell" style="background-image: url(img/hero-bg-02.jpg);">
+				<div class="hero-bg">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<h1 class="wp1">Get a head start, with the Synthetica Sketch file.</h1>
+								<a href="http://tympanus.net/codrops/?p=26570" class="btn primary wp2">Download Sketch File</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 hero-intro-text wp3">
+								<p>Create your landing page in minutes with Synthetica's Sketch style guide.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-cell" style="background-image: url(img/hero-bg-03.jpg);">
+				<div class="hero-bg">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<h1 class="wp1">Download Synthetica today, it's free forever.</h1>
+								<a href="http://tympanus.net/codrops/?p=26570" class="btn primary wp2">Download Template</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 hero-intro-text wp3">
+								<p>Available exclusively from Codrops.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+		<!--<div class='mouse-container'>
+			<a href="#intro">
+				<div class='mouse'>
+					<span class='scroll-down'></span>
+				</div>
+			</a>
+		</div>-->
+	</header>
+	<!-- SECTION: Intro -->
+	<section class="collective has-padding" id="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h4>Project Details</h4>
+				</div>
+				<div class="col-md-9">
+					<p style="text-align: justify">The project scope is to build a system that would monitor the environmental data of such a closed
+system. This would require a microcontroller, sensors, a battery pack and some indicators/switches to
+provide current status to the user. In addition, an external program would be developed to download
+the logged data and displaying/processing it to the end user. The off-line system as a whole should be
+light weight, robust, compact and be able to operate with very low power requirements.
+</p>
+
+<p style="text-align: justify">
+For this project, limit the measurement to pressure, temperature and the GPS coordinates of the
+environment.
+</p>
+<p style="text-align: justify">
+Although there is no preferred microprocessor, an option is to use an ESP32 (development board). This
+is a compact SOC that has built-in capabilities to connect to external sensors through Wi-Fi and
+Bluetooth.
+</p>
+					</div>
+			</div>
+		</div>
+	</section>
+	<!-- END SECTION: Intro -->
+	<!-- SECTION: mentor -->
+
+    <section id="mentor" class="crew has-padding alternate-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Mentors</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <article class="crew-member" style="background-image: url(img/ProfPradeep.jpeg); height: 370px;">
+                        <figure>
+                            <figcaption class="overlay">
+                                <h2>Dr. Pradeep Buddharaju</h2>
+                                <p>Assistant Professor, Computer Science and Computer Information Systems</p>
+                                <p>Email: Buddharaju@UHCL.edu</p>
+															                </figcaption>
+                        </figure>
+                    </article>
+                    <br />
+
+                </div>
+
+
+								<div class="col-md-9 col-sm-6 col-xs-12">
+
+									<span style="color:black;font-size:x-large">Dr. Pradeep Buddharaju</span><br />
+									<span style="color:black;font-size:large">Assistant Professor, Computer Science</span>
+									<br/>
+
+									<p style="text-align: justify; font-size:large;">
+									Dr. Buddharaju is Associate Professor of Computer Science and Computer Information Systems at University of Houston - Clearlake. Prior to joining UHCL, he was a Research Assistant Professor at the University of Houston. He received his B.Tech in Computer Science from Jawaharlal Nehru Technological University (India), MS in Computer Science and PhD in Computer Science, both from University of Houston. Dr. Buddharaju’s research interests are in the areas of Mobile computing and Pervasive gaming, Computational physiology, Biomedical image processing and analysis, Biometrics, machine learning, and computer vision. Dr. Buddharaju is teaching core computer science courses such as Design of Database Systems, Computer Organization and Assembly Programming, Object-Oriented Design, and also teaching special topics/elective courses such as Mobile Applications Development, Mobile and Computer Game Programming, Image Processing and Pattern Recognition. He has also been teaching sections of the Research project & Seminar (Capstone) course for the past 3 years.
+</p>
+<br/>
+<br/>
+                </div>
+							</div>
+							</div>
+								<div class="container">
+										<div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <article class="crew-member" style="background-image: url(img/Chhanna.jpg)">
+                        <figure>
+                            <figcaption class="overlay">
+                                <h2>Channa Weeratunge</h2>
+                                <p>Chief Software Engineer, Optime Subsea</p>
+                                <p>Email: cw@optimesubsea.com</p>
+
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <br />
+
+                </div>
+								<div class="col-md-9 col-sm-6 col-xs-12">
+
+									<span style="color:black;font-size:x-large">Channa Weeratunge</span><br />
+									<span style="color:black;font-size:large">Chief Software Engineer, Optime Subsea</span>
+									<br/>
+									<br/>
+									<br/>
+									<br/>
+									<br/>
+									<br/>
+									<p style="text-align: justify; font-size:large;">
+									He has BS and MS in Computer Science from University of Houston Clear Lake. He has Software Work experience of 20+ years.
+									He Mostly worked on Microsoft technologies.
+									</p>
+                </div>
+</div>
+</div>
+<div class="container">
+		<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12">
+		<article class="crew-member" style="background-image: url(img/1.jpg)">
+				<figure>
+						<figcaption class="overlay">
+								<h2>Thor Arne Lovland</h2>
+								<p>Co Founder and COO, Optime Subsea</p>
+								<p>Email: tal@optimesubsea.com</p>
+
+						</figcaption>
+				</figure>
+		</article>
+		<br />
+
+</div>
+<div class="col-md-9 col-sm-6 col-xs-12">
+
+	<span style="color:black;font-size:x-large">Thor Arne Lovland</span><br />
+	<span style="color:black;font-size:large">Co Founder and COO, Optime Subsea</span>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<p style="text-align: justify; font-size:large;">
+
+	</p>
+</div>
+</div>
+</div>
+
+
+    </section>
+	<!-- END SECTION: Stats -->
+
+	<!-- SECTION: Crew -->
+	<section class="crew has-padding" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4>Team</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<article class="crew-member" style="background-image: url(img/Hajera.jpeg)">
+						<figure>
+							<figcaption class="overlay">
+								<h2>Hajera Nasreen Kasim Razvi</h2>
+								<p>Team Manager</p>
+                                <p>Email: KasimRazviH3548@uhcl.edu</p>
+                                <div class="crew-socials">
+                                    <ul>
+
+                                        <li>
+                                            <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</figcaption>
+						</figure>
+					</article>
+                    <br/>
+                    <span style="color:black;font-size:x-large">Hajera Nasreen Kasim Razvi</span><br />
+                    <span style="color:black;font-size:large">Team Manager</span>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<article class="crew-member" style="background-image: url(img/vidhi.jpg)">
+						<figure>
+							<figcaption class="overlay">
+								<h2>Vidhi Sharma</h2>
+								<p>Technical Lead</p>
+                                <p>Email: Sharmav5242@uhcl.edu</p>
+                                <div class="crew-socials">
+                                    <ul>
+
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/vidhi-sharma03/"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</figcaption>
+						</figure>
+					</article>
+                    <br/>
+                    <span style="color:black;font-size:x-large">Vidhi Sharma</span><br />
+                    <span style="color:black;font-size:large">Technical Lead</span>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<article class="crew-member" style="background-image: url(img/Divya.jpg)">
+						<figure>
+							<figcaption class="overlay">
+								<h2>Divya Kamboj</h2>
+																<p>Documentation Lead</p>
+																<p>Email: Kamboj@UHCL.edu</p>
+								<div class="crew-socials">
+																		<ul>
+
+																				<li>
+																						<a href="#"><i class="fa fa-linkedin"></i></a>
+																				</li>
+																		</ul>
+																</div>
+							</figcaption>
+						</figure>
+					</article>
+										<br />
+										<span style="color:black;font-size:x-large">Divya Kamboj</span><br />
+										<span style="color:black;font-size:large">Documentation Lead</span>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<article class="crew-member" style="background-image: url(img/Priyanka.jpg)">
+						<figure>
+							<figcaption class="overlay">
+								<h2>Priyankaa Rajendran</h2>
+                                <p>Presentation and Website Lead</p>
+                                <p>Email: RajendranP6114@UHCL.edu</p>
+								<div class="crew-socials">
+                                    <ul>
+
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</figcaption>
+						</figure>
+					</article>
+                    <br />
+                    <span style="color:black;font-size:x-large">Priyankaa Rajendran</span><br />
+                    <span style="color:black;font-size:large">Presentation and Website Lead</span>
+				</div>
+
+			<!--	<div class="col-md-3 col-sm-6 col-xs-12">
+					<article class="crew-member" style="background-image: url(img/mohit.jpg)">
+						<figure>
+							<figcaption class="overlay">
+                                <h2>Mohit Sharma</h2>
+                                <p>Technical Lead</p>
+                                <p>Email: sharmam1838@uhcl.edu</p>
+								<div class="crew-socials">
+                                    <ul>
+
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</figcaption>
+						</figure>
+					</article>
+                    <br />
+                    <span style="color:black;font-size:x-large">Mohit Sharma</span><br />
+                    <span style="color:black;font-size:large">Technical Lead</span>
+				</div>
+			-->
+			</div>
+		</div>
+	</section>
+	<!-- END SECTION: Crew -->
+	<!-- SECTION: Articles -->
+	<section class="latest-articles has-padding alternate-bg" id="meeting">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h4>Team Meetings</h4>
+				</div>
+
+                <div class="col-md-9">
+                    <h3>Links for all meetings hosted</h3>
+										<table style="width:100%">
+						<tr>
+                  <td>  <p style="font-size:Large;"><a href="mom/MOM_1.pdf" target="_blank">1. Meeting (01/24/2018)</a></p></td>
+									<td>  <p style="font-size:Large;"><a href="mom/MOM_6.pdf" target="_blank">6. Meeting (03/02/2018)</a></p></td>
+									<td>  <p style="font-size:Large;"><a href="mom/MOM_11.pdf" target="_blank">11. Meeting (04/09/2018)</a></p></td>
+
+								</tr>
+
+						<tr>
+							<td>  <p style="font-size:Large;"><a href="mom/MOM_2.pdf" target="_blank">2. Meeting (02/02/2018)</a></p></td>
+
+							<td>  <p style="font-size:Large;"><a href="mom/MOM_7.pdf" target="_blank">7. Meeting (03/05/2018)</a></p></td>
+							<td>  <p style="font-size:Large;"><a href="mom/MOM_12.pdf" target="_blank">12. Meeting (04/13/2018)</a></p></td>
+						</tr>
+
+						<tr>
+							<td>  <p style="font-size:Large;"><a href="mom/MOM_3.pdf" target="_blank">3. Meeting (02/09/2018)</a></p></td>
+
+						<td>  <p style="font-size:Large;"><a href="mom/MOM_8.pdf" target="_blank">8. Meeting (03/09/2018)</a></p></td>
+						<td>  <p style="font-size:Large;"><a href="mom/MOM_13.pdf" target="_blank">13. Meeting (04/20/2018)</a></p></td>
+
+							</tr>
+
+						<tr>
+									<td>  <p style="font-size:Large;"><a href="mom/MOM_4.pdf" target="_blank">4. Meeting (02/14/2018)</a></p></td>
+									<td>  <p style="font-size:Large;"><a href="mom/MOM_9.pdf" target="_blank">9. Meeting (03/21/2018)</a></p></td>
+									<td>  <p style="font-size:Large;"><a href="mom/MOM_14.pdf" target="_blank">14. Meeting (04/27/2018)</a></p></td>
+
+						</tr>
+						<tr>
+
+								<td>  <p style="font-size:Large;"><a href="mom/MOM_5.pdf" target="_blank">5. Meeting (02/23/2018)</a></p></td>
+								<td>  <p style="font-size:Large;"><a href="mom/MOM_10.pdf" target="_blank">10. Meeting (04/01/2018)</a></p></td>
+
+						</tr>
+								  </table>
+
+
+                </div>
+			</div>
+		</div>
+	</section>
+	<!-- END SECTION: Articles -->
+
+	<!-- SECTION: Deliverables -->
+    <section class="latest-articles has-padding" id="Milestones">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Milestones</h4>
+                </div>
+
+                <div class="col-md-9">
+                    <!--<h3>Links for all resource's and documents</h3>
+                    <p><a href="Doc/Requirement and Design Document.pdf" target="_blank">Requirement and Design Document #1</a></p>
+					<p><a href="Doc/Design1.jpg" target="_blank">Design Document #2</a></p>
+-->
+<table style="width:100%">
+<tr>
+<td>  <p style="font-size:Large;"><a href="Doc/ESP_32_Connections.png" target="_blank">1. ESP 32 Connections</a></p></td>
+<td>  <p style="font-size:Large;"><a href="Doc/Mavericks.pdf" target="_blank">4. Mavericks Mid-review Presentation</a></p></td>
+
+</tr>
+
+<tr>
+	<td>  <p style="font-size:Large;"><a href="Doc/Flow_chart_final.pdf" target="_blank">2. Flow Chart for ESP 32</a></p></td>
+	<td>  <p style="font-size:Large;"><a href="Doc/Mavericks_Poster.pdf" target="_blank">5. Poster Presentation</a></p></td>
+
+</tr>
+
+<tr>
+
+	<td>  <p style="font-size:Large;"><a href="Doc/Mobile_App_Flow_Chart.pdf" target="_blank">3. Mobile Application Design Flow Chart</a></p></td>
+
+
+</tr>
+
+<tr>
+
+</tr>
+</table>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION: Deliverables -->
+
+    <!-- SECTION: References -->
+    <section class="latest-articles has-padding alternate-bg" id="Videos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Videos</h4>
+                </div>
+
+                <div class="col-md-9">
+                    <h3>Coming Soon...</h3>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION: Reference -->
+
+
+	<!-- SECTION: Footer -->
+	<footer class="has-padding footer-bg">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12 footer-nav">
+					<ul class="footer-primary-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#intro">Project</a></li>
+						<li><a href="#mentor">Mentor</a></li>
+						<li><a href="#team">Team</a></li>
+						<li><a href="#meeting">Meetings</a></li>
+													<li><a href="#Milestones">Milestones</a></li>
+													<li><a href="#Videos">Videos</a></li>
+					</ul>
+
+					<ul class="footer-secondary-nav">
+						<li><h2>Spring 2018. Team Mavericks.</h2></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- END SECTION: Footer -->
+	<!-- JS CDNs -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	<script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
+	<!-- jQuery local fallback -->
+	<script>
+	window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')
+	</script>
+	<!-- JS Locals -->
+	<script src="js/min/bootstrap.min.js"></script>
+	<script src="js/min/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<script src="js/min/retina.min.js"></script>
+	<script src="js/min/jquery.waypoints.min.js"></script>
+	<script src="js/min/flickity.pkgd.min.js"></script>
+	<script src="js/min/scripts-min.js"></script>
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID and uncomment -->
+	<!--
+	<script>
+	(function(b, o, i, l, e, r) {
+		b.GoogleAnalyticsObject = l;
+		b[l] || (b[l] =
+			function() {
+				(b[l].q = b[l].q || []).push(arguments)
+			});
+		b[l].l = +new Date;
+		e = o.createElement(i);
+		r = o.getElementsByTagName(i)[0];
+		e.src = '//www.google-analytics.com/analytics.js';
+		r.parentNode.insertBefore(e, r)
+	}(window, document, 'script', 'ga'));
+	ga('create', 'UA-XXXXX-X', 'auto');
+	ga('send', 'pageview');
+	</script>
+	-->
+</body>
+
+</html>
